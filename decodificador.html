@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header> 
+        <img class="logo__alura" src="imagem/Logo_Alura.png">
+    </header>
+
+    <main>
+        <div class="Digite">
+            <textarea id="input" placeholder="Digite aqui seu texto..." class="texto" ></textarea>
+            <p id="aviso"> <img src="imagem/Vector.png">Apenas letras minúsculas e sem acento.</p>
+            <div class="botoes">
+                <button id="codificador" class="botao__codificar">
+                    Codificar
+                </button>
+                <button id="decodificador" class="botao__descodificar">
+                    Decodificar
+                </button>                
+            </div>            
+        </div>
+
+        <div class="codificador">
+            <textarea wrap="hard" id="output" readonly placeholder ="Nenhuma mensagem encontrada." class="texto_codificado"></textarea>
+            <button id="copiar" class="botao__copiar">Copiar</button>
+        </div>
+    </main>
+
+    <footer>
+        <p class="rodape">Desenvolvido por Vitória Emille</p>
+        <a class="rodape_link" href="https://instagram.com/vitoriaemelle">
+            <img src="imagem/instagram.png" alt="Logo do insta">
+        </a>
+        <a class="rodape_link" href="https://github.com/vitoriaemille">
+            <img src="imagem/github.png" alt="Logo do GitHub">
+        </a>
+        <a class="rodape_link" href="https://linkedin.com/in/vitoriaemelledeandrade">
+            <img src="imagem/linkedin.png" alt="Logo do linkedin">
+        </a>
+
+    </footer>
+    <script src="script.js"></script>
+   
+</body>
+</html>

@@ -1,0 +1,166 @@
+* {
+    background: #F3F5FC;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__alura {
+    padding: 2% 0% 0% 2%;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Digite {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction:column ;
+    align-items: center;
+    gap: 5px;
+    width: 50%;
+}
+
+.codificador{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 5px;
+}
+
+.texto_codificado::placeholder{
+    height: 90%;
+    background-image: url(imagem/boneco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    color: #0A3871;
+    text-align: center;
+}
+
+.texto_codificado {
+    resize: none;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.texto {
+    resize: none;
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    background: rgb(245, 244, 244);
+    border-style: none;
+    border-color: black;
+    width: 80%;
+    height: 70vh;
+}
+
+.texto::placeholder{
+    color: #0A3871;
+}
+
+#aviso{
+    display: flex;
+    font-size: 15px;
+    gap: 8px;
+    justify-content: flex-start;
+    color: #495057;    
+}
+
+.botoes{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 8vh;
+    gap: 5vh;
+    
+}
+
+.botao__codificar {
+    background: #0A3871;
+    font-size: 20px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:white;
+    cursor: pointer;
+    height: 67px;
+    width: 250px;
+}
+
+.botao__codificar:hover {
+    background-color: #1f5fad;
+}
+
+.botao__descodificar {
+    background: #D8DFE8;
+    font-size: 20px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 250px;
+}
+
+.botao__descodificar:hover {
+    background-color: #1f5fad;
+    color: white;
+}
+
+.botao__copiar {
+    background: #D8DFE8;
+    font-size: 20px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin: 700px 0px 0px 0px;
+    width: 250px;
+    position: absolute;
+}
+
+.texto_codificado{
+    background: white;
+    border-color: black;
+    width: 70%;
+    height: 80vh;
+    border-radius: 32px;
+}
+
+footer {
+    padding: 20px;
+    background: #cad3f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.rodape {
+    background: #cad3f5;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.rodape_link {
+    background: #cad3f5;
+}
